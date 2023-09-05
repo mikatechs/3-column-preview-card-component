@@ -1,0 +1,53 @@
+.header-1 {
+    color: $color-grey-light;
+    font-family: $font-headings;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 3.5rem 0 2.5rem;
+}
+
+.paragraph {
+    color: #FFF;
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 166.667% */
+    opacity: 0.75;
+    padding-bottom: 8.3rem;
+}
+
+.btn {
+    width: 14.6rem;
+    height: 4.8rem;
+    display: inline-block;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: $color-grey-light;
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 166.667% */
+
+    &:hover {
+        background-color: transparent;
+        border: 2px solid $color-grey-light;
+        color: #FFF;
+    }
+}
+
+.btn-1 {
+    color: $color-bg-orange;
+}
+
+.btn-2 {
+    color: $color-bg-cyan-light;
+}
+
+.btn-3 {
+    color: $color-bg-cyan-dark;
+}

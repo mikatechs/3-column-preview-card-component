@@ -1,0 +1,41 @@
+.box {
+    padding: 4.8rem 4.75rem;
+}
+
+.sedans {
+    background-color: $color-bg-orange;
+    border-radius: 0.8rem 0 0 0.8rem;
+
+    @media only screen and (max-width: 57.5em) {
+        border-radius: 0.8rem 0 0 0;
+    }
+
+    @media only screen and (max-width: 38.3125em) {
+        border-radius: 0.8rem 0.8rem 0 0;
+    } 
+}
+
+.suvs {
+    background-color: $color-bg-cyan-light;
+
+    @media only screen and (max-width: 57.5em) {
+        border-radius: 0 0.8rem 0.8rem 0;
+    }
+
+    @media only screen and (max-width: 38.3125em) {
+        border-radius: 0;
+    } 
+}
+
+.luxury {
+    background-color: $color-bg-cyan-dark;
+    border-radius: 0 0.8rem 0.8rem 0;
+
+    @media only screen and (max-width: 57.5em) {
+        border-radius: 0 0 0.8rem 0.8rem;
+    }
+
+    @media only screen and (max-width: 38.3125em) {
+        border-radius: 0 0 0.8rem 0.8rem;
+    } 
+}
