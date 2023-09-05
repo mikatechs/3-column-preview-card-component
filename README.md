@@ -44,4 +44,4 @@ Users should be able to:
 ## Author
 
 - Website - [Mika Varshanidze](https://www.github.com/mikatechs)
-- Frontend Mentor - [@ymikatechs](https://www.frontendmentor.io/profile/mikatechs)
+- Frontend Mentor - [@mikatechs](https://www.frontendmentor.io/profile/mikatechs)
